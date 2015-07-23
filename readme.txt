@@ -38,9 +38,7 @@ https://github.com/a6smile/goget-hide-login
 
 == Installation ==
 
-1. Go to Plugins › Add New.
-2. Search for *GoGet Hide Login*.
-3. Look for this plugin, download and activate it.
+3. Download for this plugin, upload and activate it.
 4. The page will redirect you to the settings. Change your login url there.
 5. You can change this option any time you want, just go back to Settings › General › GoGet Hide Login.
 
@@ -52,7 +50,7 @@ https://github.com/a6smile/goget-hide-login
 
 = I forgot my login url!  =
 
-Either go to your MySQL database and look for the value of `whl_page` in the options table, or remove the `wps-hide-login` folder from your `plugins` folder, log in through wp-login.php and reinstall the plugin.
+Either go to your MySQL database and look for the value of `whl_page` in the options table, or remove the `goget-hide-login` folder from your `plugins` folder, log in through wp-login.php and reinstall the plugin.
 
 On a multisite install the `whl_page` option will be in the sitemeta table, if there is no such option in the options table.
 
